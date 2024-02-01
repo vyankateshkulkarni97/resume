@@ -1,0 +1,975 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header
+{
+    height: 600px;
+    background: #EEE;
+}
+.header .slider
+{
+    background-image: url('header/backend.jpg');
+   
+    background-size: cover;
+    width:100%;  
+    }
+
+.header .slider .container
+{
+    margin: auto;
+    height: 600px;
+   
+    
+}
+.header .slider .container .intro
+{
+    padding: 15px  0px;
+    width: 800px;
+    margin: auto;
+  
+    
+}
+.header .slider .container .intro h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #f6f5f3;
+    color: #f7f5f3;
+    width: 800px;
+    padding: 2px;
+}
+
+.header .slider .container .intro button
+{
+    padding: 10px;
+    text-align: center;
+   font-weight: bold;
+    background: none;
+    color: #FFF;
+    border: 2px solid #FFF;
+    width: 150px;
+    margin-top: 30px;
+    font-size: 20px;
+  margin-left: 300px;
+    
+
+}
+.header .slider .container .intro button:hover
+{
+    background: #f37121;
+    border: 2px solid #f37121;
+    
+}
+
+.header .navbar
+{
+    height: 60px;
+    background: #c3e627;
+    color: #da0f0f;
+    overflow: none;
+   
+}
+
+.header .navbar.container
+{
+    margin: auto;
+    margin-right: 0%;
+    height: 30px;
+    background: #eee76b;
+}
+.fl-left
+{
+    float: left;
+   text-transform: uppercase;
+    margin-left: 0%;
+    height: 30px;
+    background: #eee76b
+   
+}
+.fl-left span
+{
+    color: #2ecc71;
+    text-transform: capitalize;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #f7f0f0;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+
+.fl-right li
+{
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.fl-right li:hover
+{
+     color: #2ecc71;
+    
+}
+
+
+.feature
+{
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feature .container
+{
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    
+}
+
+.feature .container div 
+{
+    display:  inline-block;
+    width: 29%;
+    color: #0a0000;
+    
+}
+.feature .container div h2
+{
+   
+ padding-left: 60px;
+ font-weight: bold;
+ color: #000000;
+ display: block;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-left: 11px;
+ margin-right: 40px;
+ 
+    
+}
+.feature .container div p
+{
+    padding-left:  10px;
+    font-size: 20px;
+   color: #070606;
+}
+
+.two{
+    display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.three{
+    display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.About
+{
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.About .container
+{
+    height: 700px;
+
+    background: #EEE;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+    
+}
+.About .img-left
+{
+    float: left;
+   width: 40%;
+   
+    margin-left: 100px;
+   
+   
+}
+
+.About .about-right{
+    width: 30%;
+    height: 40em;
+    /* background-color: red; */
+    float: right;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.About h2
+{
+    color: #777;
+    margin-top: 30px;
+    
+}
+.About p
+{
+    margin-right: 100px;
+    font-size: 20px;
+    color: #888;
+}
+
+
+.About .hobbies
+{
+    overflow: hidden;
+    margin: 15px  0px 0px 40px;
+   
+   
+    
+    
+}
+.About .hobbies .WebDesign
+{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+.About .hobbies .WebDesign .icon
+{
+    float: left;
+    width: 15%;
+    
+   
+}
+.About .hobbies .WebDesign .icon img
+{
+    width: 50px;
+    height: 60px;
+    border-radius:50%;
+    padding-top: 10px;
+}
+
+.About .hobbies .WebDesign .text
+{
+    float: right;
+    width: 85%;
+}
+
+
+
+.About .hobbies .Graphic
+{
+    width: 50%;
+    height: 25%;
+    float: right;
+   
+}
+.About .hobbies .Graphic .icon
+{
+    float: left;
+    width: 15%;
+    
+   
+}
+.About .hobbies .Graphic .icon img
+{
+    width: 50px;
+    height: 60px;
+    border-radius:50%;
+    padding-top: 10px;
+}
+
+.About .hobbies .Graphic .text
+{
+    float: right;
+    width: 85%;
+}
+
+
+
+.About .hobbies .Marketing
+{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+.About .hobbies .Marketing .icon
+{
+    float: left;
+    width: 15%;
+    
+   
+}
+.About .hobbies .Marketing .icon img
+{
+    width: 50px;
+    height: 60px;
+    border-radius:50%;
+    padding-top: 10px;
+}
+
+.About .hobbies .Marketing .text
+{
+    float: right;
+    width: 85%;
+  
+}
+
+
+.About .hobbies .SEO
+{
+    width: 50%;
+    height: 25%;
+    float: right;
+   
+}
+.About .hobbies .SEO .icon
+{
+    float: left;
+    width: 15%;
+    
+   
+}
+.About .hobbies .SEO .icon img
+{
+    width: 50px;
+    height: 60px;
+    border-radius:50%;
+    padding-top: 10px;
+}
+
+.About .hobbies .SEO .text
+{
+    float: right;
+    width: 85%;
+}
+
+.skills
+{
+    height:500px;
+   
+}
+
+.skills .container .left
+{
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+.skills .container .left h1
+{
+    color: #888;
+}
+
+.skills .container .left p
+{
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+.skills .container .left button
+{
+    margin-left: 100px;
+    background: none;
+    padding: 10px;
+    border: 3px solid #2DCC70;
+    color: #2DCC70;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills .container .left button:hover
+{
+    color: #FFF;
+    background:  #2DCC70;
+
+   
+}
+.skills .container  .right
+{
+    float: right;
+     height: 500px;
+   
+    width: 50%;
+}
+.skills .container  .right h2
+{
+    text-align: left;
+    
+}
+.skills .container  .right .html_css
+{
+    width: 500px;
+    height: 20px;
+    background: #EEE;
+   
+}
+.skills .container .right .html_css div
+{
+     color: #FFF;
+     background:  #2DCC70;
+     text-align: right;
+    width: 83%;
+    height: 20px;
+    
+}
+
+.skills .container  .right .php_mysql
+{
+    width: 500px;
+    height: 20px;
+    background: #EEE;
+   
+}
+.skills .container .right .php_mysql div
+{
+     color: #FFF;
+     background:  #2DCC70;
+     text-align: right;
+    width: 88%;
+    height: 20px;
+    
+}
+
+
+.skills .container  .right .wordpress
+{
+    width: 500px;
+    height: 20px;
+    background: #EEE;
+   
+}
+.skills .container .right .wordpress div
+{
+     color: #FFF;
+     background:  #2DCC70;
+     text-align: right;
+    width: 90%;
+    height: 20px;
+    
+}
+
+
+.skills .container  .right .graphic
+{
+    width: 500px;
+    height: 20px;
+    background: #EEE;
+   
+}
+.skills .container .right .graphic div
+{
+     color: #FFF;
+     background:  #2DCC70;
+     text-align: right;
+    width: 70%;
+    height: 20px;
+    
+}
+
+.Resume
+{
+    background: #EEE;
+    height: 250px;
+    text-align: center;
+    
+}
+.Resume.container
+{
+    margin: auto;
+    
+}
+.Resume .container h1
+{
+    color: #888;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Resume .container p
+{
+    color: #777;
+
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.Resume .container button
+{
+    margin: auto;
+    background: none;
+    color: #2DCC70;
+    border: 3px solid #2DCC70;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.Resume .container button:hover
+{
+    color: #FFF;
+    background: #2DCC70;
+}
+
+
+.Education .container
+{
+    margin: auto;
+    margin-top:20px;
+    height: 1800px;   
+    padding-top: 15px;
+    padding-bottom: 15px
+} 
+
+ /* .Education .container .left
+ {
+    float: inherit;
+    width: 40%;
+    margin: 20px;
+    height: 300px;
+    padding: 10px;
+    
+ }
+ .Education .container .left h1
+ {
+    margin-left: 20px;
+    color: #777;
+ }
+ 
+ .Education .container .left p
+ {
+    font-size: 20px;
+    color: #777;
+    margin-left: 20px;
+ }
+.Education .container .right
+ {
+    float: right;
+    width: 50%; */
+    /* margin: auto; */
+    /* height: 200px; */
+    /* margin:20px; */
+    /* padding: 20px; */
+    /* margin-top: 25px;
+    margin-bottom: 70px; */
+ /* }
+.Education .container .right h2
+{
+    color: #777;
+}
+.Education .container .right p:first-of-type
+{
+    color: #777;
+}
+.Education .container .right p:first-of-type span
+{
+    color: #777;
+    font-weight: bold;
+}
+.Education .container .right p:nth-of-type(2)
+{
+    background: #2DCC70;
+    color: #FFF;
+    width: 70px;
+    height: 25px;
+   text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Education .container .right hr
+{
+    width: 500px;
+   margin-left:5px;
+   margin-bottom: 10px;
+}
+.Education .container .right p:nth-of-type(3)
+{
+     color: #777;
+    font-size:20px;
+    margin-bottom:40px;
+    
+}
+.Education .container .right p:nth-of-type(4)
+{
+    color: #777;
+}
+.Education .container .right p:nth-of-type(4) span
+{
+    color: #777;
+    font-weight: bold;
+}
+.Education .container .right p:nth-of-type(5)
+{
+    background: #2DCC70;
+    color: #FFF;
+    width: 70px;
+    height: 25px;
+   text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Education .container .right p:nth-of-type(6) 
+{
+    color: #777;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.Education .container .right p:nth-of-type(7)
+{
+    color: #777;
+}
+.Education .container .right p:nth-of-type(7) span
+{
+    color: #777;
+    font-weight: bold;
+}
+.Education .container .right p:nth-of-type(8)
+{
+    background: #2DCC70;
+    color: #FFF;
+    width: 70px;
+    height: 25px;
+   text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Education .container .right p:nth-of-type(9) 
+{
+    color: #777;
+    font-size:20px;
+} */
+
+.Education .container .left
+ {
+    float: left;
+    width: 40%;
+    margin: 20px;
+    height: 500px;
+    padding: 10px;
+    
+ }
+ 
+ .Education .container .left h1
+ {
+    margin-left: 20px;
+    color: #777;
+ }
+ 
+ .Education .container .left p
+ {
+    font-size: 20px;
+    color: #777;
+    margin-left: 20px;
+ }
+.Education .container .right
+ {
+    float: right;
+    width: 50%; 
+    height: 500px;
+    margin:20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  
+ }
+ 
+.Education .container .right h2
+{
+    color: #777;
+}
+.Education .container .right p:first-of-type
+{
+    color: #777;
+}
+.Education .container .right p:first-of-type span
+{
+    color: #777;
+    font-weight: bold;
+}
+.Education .container .right p:nth-of-type(2)
+{
+    background: #2DCC70;
+    color: #FFF;
+    width: 70px;
+    height: 25px;
+   text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Education .container .right hr
+{
+    width: 500px;
+   margin-left:5px;
+   margin-bottom: 10px;
+}
+
+.Education .container .right p:nth-of-type(3)
+{
+     color: #777;
+    font-size:20px;
+    margin-bottom:120px;
+    
+}
+
+.Education .container .right p:nth-of-type(4)
+{
+    color: #777;
+}
+.Education .container .right p:nth-of-type(4) span
+{
+    color: #777;
+    font-weight: bold;
+}
+.Education .container .right p:nth-of-type(5)
+{
+    background: #2DCC70;
+    color: #FFF;
+    width: 70px;
+    height: 25px;
+   text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Education .container .right p:nth-of-type(6) 
+{
+    color: #777;
+    font-size:20px;
+    margin-bottom: 130px;
+}
+.Education .container .right p:nth-of-type(7)
+{
+    color: #777;
+}
+.Education .container .right p:nth-of-type(7) span
+{
+    color: #777;
+    font-weight: bold;
+}
+.Education .container .right p:nth-of-type(8)
+{
+    background: #2DCC70;
+    color: #FFF;
+    width: 70px;
+    height: 25px;
+   text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Education .container .right p:nth-of-type(9) 
+{
+    color: #777;
+    font-size:20px;
+}
+
+
+.Testmonials
+{
+    background: #EEE;
+    height: 270px;
+    margin-bottom: 30px;
+}
+.Testmonials .container
+{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.Testmonials .container q
+{
+    color: #888;
+    font-size:25px;
+    font-weight:bold;
+    padding-left: 20px;
+}
+
+.Testmonials .container h1
+{
+    color: #666;
+}
+.Testmonials .container div
+
+{
+    border: 2px  solid #2DCC70;
+    width:30px;
+    height: 20px;
+    display: inline-block;
+}
+.Testmonials .container div:hover
+{
+    background: #2DCC70;
+}
+.Portfoilo
+{
+     
+    height: 1100px;
+    margin-bottom: 30px;
+}
+.Portfoilo .container
+{
+    margin: auto;
+    text-align: center;
+    
+}
+.Portfoilo .container h1
+{
+   
+    color: #777;
+    
+}
+.Portfoilo .container p
+{
+   
+   padding: 0px  200px;
+    color: #888;
+    font-size: 20px;
+}
+.Portfoilo .container .images
+{
+      width: 1000px;
+     margin: auto;
+}
+.Portfoilo .container .images img
+{
+    width: 40%;
+    margin-right: 2%;
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+.contact {
+    
+    background: #252F31;
+      height: 600px;
+      width: 1500px;
+      max-width: 100%;
+      width: 100%;
+    
+}
+
+
+
+.contact  .contact_left
+{
+    float: left;
+    width: 500px;
+    color: #FFF;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+.contact  .contact_left p
+{
+    color: #777;
+    font-size: 20px;
+}
+.contact  .contact_left  span
+{
+     color: #FFF;
+}
+.contact  .contact_right
+{
+    float: right;
+    color: #FFF;
+    margin-right: 190px;
+    height: 500px;
+    overflow: hidden;
+    width: 500px;
+   padding: 20px;
+    
+    
+   
+}
+.contact  .contact_right form
+{
+    
+}
+
+.contact  .contact_right form label
+{
+    font-size: 20px;
+    margin-top: 10px;
+  
+}
+
+.contact  .contact_right form input[type="text"]
+{
+   width:400px;
+    height:40px;
+    margin: 10px 0px;
+    background: #4B5557;
+}
+.contact  .contact_right form  textarea
+{
+    width:400px;
+    height:100px;
+    background: #4B5557;
+    margin-top: 10px;
+}
+.contact  .contact_right form input[type="submit"]
+{
+    background: #191E22;
+    color: #fff;
+    width: 100px;
+    height:50px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 10px;
+}
+.footer
+{
+    background: #191E22;
+    height: 50px;
+}
+.footer .left
+{
+    float:left;
+    width:500px;
+    margin-left:200px;
+    color: #888;
+    padding-top: 10px;
+    
+    
+}
+
+
+
+
+
+
+
